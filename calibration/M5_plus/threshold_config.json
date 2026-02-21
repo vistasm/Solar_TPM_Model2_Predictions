@@ -1,0 +1,9 @@
+{
+  "strategy": "Baseline",
+  "thresholds": {
+    "LOW": 0.9983182359062637,
+    "MEDIUM": 0.9885339702632643,
+    "HIGH": 0.9959086741219269
+  },
+  "status": "FEASIBLE"
+}
