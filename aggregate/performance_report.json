@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-02-28T05:40:23Z",
+    "generated_at": "2026-03-01T05:40:12Z",
     "model_name": "Model 2 (Catcher)",
     "model_version": "v3.0.17",
     "windows": [
@@ -16,15 +16,15 @@
     "threshold_strategy": {
       "M_plus": {
         "strategy": "Fixed",
-        "threshold": 0.7461664135549474,
+        "threshold": 0.7472831261115092,
         "status": "FEASIBLE"
       },
       "M5_plus": {
         "strategy": "Baseline",
         "thresholds": {
-          "LOW": 0.9983182359062637,
-          "MEDIUM": 0.9885339702632643,
-          "HIGH": 0.9959086741219269
+          "LOW": 0.9983373649213814,
+          "MEDIUM": 0.9882101282159045,
+          "HIGH": 0.995941552234982
         },
         "status": "FEASIBLE"
       },
@@ -34,27 +34,27 @@
         "n_windows": null,
         "baseline_thresholds": {
           "LOW": 0.95,
-          "MEDIUM": 0.9767043590545654,
-          "HIGH": 0.9951902627944946
+          "MEDIUM": 0.9767304062843323,
+          "HIGH": 0.9952119588851929
         },
         "tpm_delta_model_path": "tpm_delta_model.pkl"
       }
     },
     "date_range": {
       "start": "2026-02-22",
-      "end": "2026-02-24"
+      "end": "2026-02-25"
     },
-    "n_days_verified": 3
+    "n_days_verified": 4
   },
   "summary": {
     "M_plus": {
       "precision": 0,
-      "recall": 0,
+      "recall": 0.0,
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 3,
-      "n_events_30d": 0
+      "n_predictions_30d": 4,
+      "n_events_30d": 1
     },
     "M5_plus": {
       "precision": 0,
@@ -62,7 +62,7 @@
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 3,
+      "n_predictions_30d": 4,
       "n_events_30d": 0
     },
     "X_plus": {
@@ -71,7 +71,7 @@
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 3,
+      "n_predictions_30d": 4,
       "n_events_30d": 0
     }
   },
@@ -81,21 +81,21 @@
         "confusion_matrix": {
           "hits": 0,
           "false_alarms": 0,
-          "misses": 0,
+          "misses": 1,
           "true_negatives": 3
         },
         "metrics": {
           "precision": 0,
-          "recall": 0,
+          "recall": 0.0,
           "f1_score": 0,
           "far": 0.0,
           "lift": 0,
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
-          "n_events": 0,
-          "base_rate": 0.0
+          "n_predictions": 4,
+          "n_events": 1,
+          "base_rate": 0.25
         }
       },
       "M5_plus": {
@@ -103,7 +103,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 3
+          "true_negatives": 4
         },
         "metrics": {
           "precision": 0,
@@ -114,7 +114,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
+          "n_predictions": 4,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -124,7 +124,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 3
+          "true_negatives": 4
         },
         "metrics": {
           "precision": 0,
@@ -135,7 +135,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
+          "n_predictions": 4,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -146,21 +146,21 @@
         "confusion_matrix": {
           "hits": 0,
           "false_alarms": 0,
-          "misses": 0,
+          "misses": 1,
           "true_negatives": 3
         },
         "metrics": {
           "precision": 0,
-          "recall": 0,
+          "recall": 0.0,
           "f1_score": 0,
           "far": 0.0,
           "lift": 0,
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
-          "n_events": 0,
-          "base_rate": 0.0
+          "n_predictions": 4,
+          "n_events": 1,
+          "base_rate": 0.25
         }
       },
       "M5_plus": {
@@ -168,7 +168,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 3
+          "true_negatives": 4
         },
         "metrics": {
           "precision": 0,
@@ -179,7 +179,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
+          "n_predictions": 4,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -189,7 +189,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 3
+          "true_negatives": 4
         },
         "metrics": {
           "precision": 0,
@@ -200,7 +200,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
+          "n_predictions": 4,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -211,21 +211,21 @@
         "confusion_matrix": {
           "hits": 0,
           "false_alarms": 0,
-          "misses": 0,
+          "misses": 1,
           "true_negatives": 3
         },
         "metrics": {
           "precision": 0,
-          "recall": 0,
+          "recall": 0.0,
           "f1_score": 0,
           "far": 0.0,
           "lift": 0,
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
-          "n_events": 0,
-          "base_rate": 0.0
+          "n_predictions": 4,
+          "n_events": 1,
+          "base_rate": 0.25
         }
       },
       "M5_plus": {
@@ -233,7 +233,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 3
+          "true_negatives": 4
         },
         "metrics": {
           "precision": 0,
@@ -244,7 +244,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
+          "n_predictions": 4,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -254,7 +254,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 3
+          "true_negatives": 4
         },
         "metrics": {
           "precision": 0,
@@ -265,7 +265,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 3,
+          "n_predictions": 4,
           "n_events": 0,
           "base_rate": 0.0
         }
