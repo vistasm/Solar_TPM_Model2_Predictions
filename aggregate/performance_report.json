@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T05:40:12Z",
+    "generated_at": "2026-04-01T05:40:13Z",
     "model_name": "Model 2 (Catcher)",
     "model_version": "v3.0.17",
     "windows": [
@@ -16,15 +16,15 @@
     "threshold_strategy": {
       "M_plus": {
         "strategy": "Fixed",
-        "threshold": 0.7472831261115092,
+        "threshold": 0.7423662515715854,
         "status": "FEASIBLE"
       },
       "M5_plus": {
         "strategy": "Baseline",
         "thresholds": {
-          "LOW": 0.9983373649213814,
-          "MEDIUM": 0.9882101282159045,
-          "HIGH": 0.995941552234982
+          "LOW": 0.9948765451272878,
+          "MEDIUM": 0.9871990143106772,
+          "HIGH": 0.9952390207010897
         },
         "status": "FEASIBLE"
       },
@@ -34,17 +34,17 @@
         "n_windows": null,
         "baseline_thresholds": {
           "LOW": 0.95,
-          "MEDIUM": 0.9767304062843323,
-          "HIGH": 0.9952119588851929
+          "MEDIUM": 0.9727028608322144,
+          "HIGH": 0.9941189289093018
         },
         "tpm_delta_model_path": "tpm_delta_model.pkl"
       }
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-03-27"
+      "end": "2026-03-28"
     },
-    "n_days_verified": 18
+    "n_days_verified": 19
   },
   "summary": {
     "M_plus": {
@@ -53,7 +53,7 @@
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 18,
+      "n_predictions_30d": 19,
       "n_events_30d": 7
     },
     "M5_plus": {
@@ -62,7 +62,7 @@
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 18,
+      "n_predictions_30d": 19,
       "n_events_30d": 0
     },
     "X_plus": {
@@ -71,7 +71,7 @@
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 18,
+      "n_predictions_30d": 19,
       "n_events_30d": 0
     }
   },
@@ -147,7 +147,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 7,
-          "true_negatives": 11
+          "true_negatives": 12
         },
         "metrics": {
           "precision": 0,
@@ -158,9 +158,9 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 18,
+          "n_predictions": 19,
           "n_events": 7,
-          "base_rate": 0.388889
+          "base_rate": 0.368421
         }
       },
       "M5_plus": {
@@ -168,7 +168,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 18
+          "true_negatives": 19
         },
         "metrics": {
           "precision": 0,
@@ -179,7 +179,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 18,
+          "n_predictions": 19,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -189,7 +189,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 18
+          "true_negatives": 19
         },
         "metrics": {
           "precision": 0,
@@ -200,7 +200,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 18,
+          "n_predictions": 19,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -212,7 +212,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 7,
-          "true_negatives": 11
+          "true_negatives": 12
         },
         "metrics": {
           "precision": 0,
@@ -223,9 +223,9 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 18,
+          "n_predictions": 19,
           "n_events": 7,
-          "base_rate": 0.388889
+          "base_rate": 0.368421
         }
       },
       "M5_plus": {
@@ -233,7 +233,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 18
+          "true_negatives": 19
         },
         "metrics": {
           "precision": 0,
@@ -244,7 +244,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 18,
+          "n_predictions": 19,
           "n_events": 0,
           "base_rate": 0.0
         }
@@ -254,7 +254,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 18
+          "true_negatives": 19
         },
         "metrics": {
           "precision": 0,
@@ -265,7 +265,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 18,
+          "n_predictions": 19,
           "n_events": 0,
           "base_rate": 0.0
         }
