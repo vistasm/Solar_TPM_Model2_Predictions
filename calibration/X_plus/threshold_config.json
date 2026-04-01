@@ -4,8 +4,8 @@
   "n_windows": null,
   "baseline_thresholds": {
     "LOW": 0.95,
-    "MEDIUM": 0.9767304062843323,
-    "HIGH": 0.9952119588851929
+    "MEDIUM": 0.9727028608322144,
+    "HIGH": 0.9941189289093018
   },
   "tpm_delta_model_path": "tpm_delta_model.pkl"
 }
