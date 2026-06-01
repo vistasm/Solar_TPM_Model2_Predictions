@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-31T05:40:14Z",
+    "generated_at": "2026-06-01T05:40:12Z",
     "model_name": "Model 2 (Catcher)",
     "model_version": "v3.0.17",
     "windows": [
@@ -16,30 +16,35 @@
     "threshold_strategy": {
       "M_plus": {
         "strategy": "Fixed",
-        "threshold": 0.7451521892574174,
+        "threshold": 0.7481309065352783,
         "status": "FEASIBLE"
       },
       "M5_plus": {
         "strategy": "Baseline",
         "thresholds": {
-          "LOW": 0.9948025467699467,
-          "MEDIUM": 0.9877232538700293,
-          "HIGH": 0.9964465481977393
+          "LOW": 0.9976666774993586,
+          "MEDIUM": 0.9855030385599052,
+          "HIGH": 0.9961096709271069
         },
         "status": "FEASIBLE"
       },
       "X_plus": {
         "strategy": "TPM",
-        "use_fallback": true,
+        "use_fallback": false,
         "n_windows": null,
-        "threshold": 0.8799952864646912
+        "baseline_thresholds": {
+          "LOW": 0.9966417551040649,
+          "MEDIUM": 0.9551348090171814,
+          "HIGH": 0.9928748607635498
+        },
+        "tpm_delta_model_path": "tpm_delta_model.pkl"
       }
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-05-27"
+      "end": "2026-05-28"
     },
-    "n_days_verified": 79
+    "n_days_verified": 80
   },
   "summary": {
     "M_plus": {
@@ -207,20 +212,20 @@
           "hits": 5,
           "false_alarms": 0,
           "misses": 19,
-          "true_negatives": 55
+          "true_negatives": 56
         },
         "metrics": {
           "precision": 1.0,
           "recall": 0.2083,
           "f1_score": 0.3448,
           "far": 0.0,
-          "lift": 3.29,
-          "alert_rate": 0.0633
+          "lift": 3.33,
+          "alert_rate": 0.0625
         },
         "totals": {
-          "n_predictions": 79,
+          "n_predictions": 80,
           "n_events": 24,
-          "base_rate": 0.303797
+          "base_rate": 0.3
         }
       },
       "M5_plus": {
@@ -228,7 +233,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 6,
-          "true_negatives": 73
+          "true_negatives": 74
         },
         "metrics": {
           "precision": 0,
@@ -239,9 +244,9 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 79,
+          "n_predictions": 80,
           "n_events": 6,
-          "base_rate": 0.075949
+          "base_rate": 0.075
         }
       },
       "X_plus": {
@@ -249,20 +254,20 @@
           "hits": 0,
           "false_alarms": 3,
           "misses": 3,
-          "true_negatives": 73
+          "true_negatives": 74
         },
         "metrics": {
           "precision": 0.0,
           "recall": 0.0,
           "f1_score": 0,
-          "far": 0.0395,
+          "far": 0.039,
           "lift": 0,
-          "alert_rate": 0.038
+          "alert_rate": 0.0375
         },
         "totals": {
-          "n_predictions": 79,
+          "n_predictions": 80,
           "n_events": 3,
-          "base_rate": 0.037975
+          "base_rate": 0.0375
         }
       }
     }
