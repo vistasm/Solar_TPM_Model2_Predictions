@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-08T05:40:13Z",
+    "generated_at": "2026-06-09T05:40:12Z",
     "model_name": "Model 2 (Catcher)",
     "model_version": "v3.0.17",
     "windows": [
@@ -42,9 +42,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-06-04"
+      "end": "2026-06-05"
     },
-    "n_days_verified": 87
+    "n_days_verified": 88
   },
   "summary": {
     "M_plus": {
@@ -81,8 +81,8 @@
         "confusion_matrix": {
           "hits": 0,
           "false_alarms": 0,
-          "misses": 3,
-          "true_negatives": 1
+          "misses": 2,
+          "true_negatives": 2
         },
         "metrics": {
           "precision": 0,
@@ -94,8 +94,8 @@
         },
         "totals": {
           "n_predictions": 4,
-          "n_events": 3,
-          "base_rate": 0.75
+          "n_events": 2,
+          "base_rate": 0.5
         }
       },
       "M5_plus": {
