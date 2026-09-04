@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-03T05:40:12Z",
+    "generated_at": "2026-09-04T05:40:14Z",
     "model_name": "Model 2 (Catcher)",
     "model_version": "v3.0.17",
     "windows": [
@@ -37,9 +37,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-08-30"
+      "end": "2026-08-31"
     },
-    "n_days_verified": 174
+    "n_days_verified": 175
   },
   "summary": {
     "M_plus": {
